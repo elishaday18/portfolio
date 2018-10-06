@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="utf-8">
+<title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactStyles.css">
+<link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="main-nav">
+        <ul class="nav">
+          <li class="name">Elisha Day</li>
+          <li><a href="index.html">Home</a></li>
+         <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+<main class="flex" role="main" data-content>
+<header id="conhead" > <h2>Need a custom website made, Static or Wordpress? Or how about general questions or ways I can improve the site? If so, fill out the contact form below. </h2>
+</header>
+
+<main class="contactForm">
+   
+
+<div class="box">
+
+<form class="conForm" id="contact" action="contact.php" method="POST">
+
+
+<p>Name: <input type="text" name="name" placeholder="place name here"></p>
+<p>Email:  <input type="text" name="email" placeholder="Your email here..."> </p>
+<p>Phone: <input type="text" name="phone" placeholder="How can I call you?" > </p>
+<p>Are you a male or female?</p><br/>
+
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<br /> 
+<p>Message:</p><br/>
+<textarea name="message" rows="6" cols="25">
+</textarea><br /> 
+<input class="btn" type="submit" value="Send"> 
+
+<input class="btn" type="reset" value="Clear"> 
+
+</form>
+</div>
+</main>
+</main>
+
+</body>
+</html>
